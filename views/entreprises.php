@@ -6,13 +6,13 @@
 
 <section class="section">
     <div class="cards three">
-        <article class="card"><h2>Diagnostic</h2><p>Evaluation des niveaux, objectifs metier et contraintes operationnelles.</p></article>
-        <article class="card"><h2>Parcours</h2><p>Formation intra, inter, presentiel, distanciel ou hybride selon vos besoins.</p></article>
-        <article class="card"><h2>Certification</h2><p>Preparation et suivi vers une certification linguistique adaptee.</p></article>
+        <article class="card feature-card"><span>01</span><h2>Diagnostic</h2><p>Evaluation des niveaux, objectifs metier et contraintes operationnelles.</p></article>
+        <article class="card feature-card"><span>02</span><h2>Parcours</h2><p>Formation intra, inter, presentiel, distanciel ou hybride selon vos besoins.</p></article>
+        <article class="card feature-card"><span>03</span><h2>Certification</h2><p>Preparation et suivi vers une certification linguistique adaptee.</p></article>
     </div>
 </section>
 
-<section class="split-section">
+<section class="split-section visual-split">
     <div>
         <h2>Une offre lisible pour vos equipes</h2>
         <ul class="check-list">
@@ -21,6 +21,18 @@
             <li>Suivi de progression et bilan final.</li>
             <li>Accompagnement administratif OPCO.</li>
         </ul>
+    </div>
+    <figure class="section-media">
+        <img src="/assets/img/formation-entreprise.jpg" alt="Reunion d equipe en formation professionnelle">
+    </figure>
+</section>
+
+<section class="section compact">
+    <div class="section-heading">
+        <div>
+            <p class="eyebrow">Devis entreprise</p>
+            <h2>Construire un parcours adapte</h2>
+        </div>
     </div>
     <?php partial('quote-form'); ?>
 </section>

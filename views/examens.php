@@ -15,15 +15,18 @@
             <li>Historique visible dans l administration.</li>
         </ul>
     </div>
-    <aside class="info-panel">
-        <h2>Sessions</h2>
-        <?php foreach (site_data('exam_sessions') as $session): ?>
-            <div class="session-row">
-                <strong><?= e($session['exam']) ?></strong>
-                <span><?= e($session['date']) ?>, <?= e($session['time']) ?></span>
-                <small><?= e($session['location']) ?></small>
-            </div>
-        <?php endforeach; ?>
+    <aside class="info-panel image-panel">
+        <img src="/assets/img/certificat-qualiopi.jpg" alt="Certificat Qualiopi ARCS">
+        <div>
+            <h2>Sessions</h2>
+            <?php foreach (site_data('exam_sessions') as $session): ?>
+                <div class="session-row">
+                    <strong><?= e($session['exam']) ?></strong>
+                    <span><?= e($session['date']) ?>, <?= e($session['time']) ?></span>
+                    <small><?= e($session['location']) ?></small>
+                </div>
+            <?php endforeach; ?>
+        </div>
     </aside>
 </section>
 

@@ -1,14 +1,19 @@
 <footer class="site-footer">
     <div class="footer-grid">
-        <section>
-            <h2>ARCS</h2>
+        <section class="footer-brand">
+            <img src="/assets/img/logo-arcs.png" alt="ARCS">
             <p>Academie de Renforcement des Competences et du Savoir. Formations linguistiques, certifications et accompagnement professionnel.</p>
+            <div class="footer-badges">
+                <span>CPF / OPCO</span>
+                <span>Certifications</span>
+            </div>
         </section>
         <section>
             <h2>Contact</h2>
             <p><?= e($contact['address'] ?? '') ?></p>
             <p><?= e($contact['hours'] ?? '') ?></p>
             <p><?= e($contact['email'] ?? 'E-mail a completer') ?></p>
+            <p><?= e($contact['phone'] ?? 'Telephone a completer') ?></p>
         </section>
         <section>
             <h2>Acces rapide</h2>

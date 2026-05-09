@@ -1,3 +1,10 @@
+<?php
+$formationVisuals = [
+    'Francais' => 'formation-linguistique.jpg',
+    'Anglais' => 'formation-entreprise.jpg',
+    'Examens' => 'certificat-qualiopi.jpg',
+];
+?>
 <section class="page-hero">
     <p class="eyebrow">Catalogue</p>
     <h1>Formations linguistiques</h1>
@@ -13,16 +20,20 @@
     </div>
     <div class="cards three filter-list">
         <?php foreach (site_data('formations') as $formation): ?>
-            <article class="card formation-card" data-category="<?= e($formation['category']) ?>">
-                <span class="tag"><?= e($formation['category']) ?></span>
-                <h2><?= e($formation['title']) ?></h2>
-                <p><?= e($formation['summary']) ?></p>
-                <dl class="meta-list">
-                    <div><dt>Duree</dt><dd><?= e($formation['duration']) ?></dd></div>
-                    <div><dt>Tarif</dt><dd><?= e($formation['price']) ?></dd></div>
-                    <div><dt>Certification</dt><dd><?= e($formation['certification']) ?></dd></div>
-                </dl>
-                <a class="card-link" href="/formations/<?= e($formation['slug']) ?>">Voir le programme</a>
+            <?php $visual = $formationVisuals[$formation['category']] ?? 'formation-linguistique.jpg'; ?>
+            <article class="card training-card formation-card" data-category="<?= e($formation['category']) ?>">
+                <img class="card-media" src="/assets/img/<?= e($visual) ?>" alt="">
+                <div class="card-body">
+                    <span class="tag"><?= e($formation['category']) ?></span>
+                    <h2><?= e($formation['title']) ?></h2>
+                    <p><?= e($formation['summary']) ?></p>
+                    <dl class="meta-list">
+                        <div><dt>Duree</dt><dd><?= e($formation['duration']) ?></dd></div>
+                        <div><dt>Tarif</dt><dd><?= e($formation['price']) ?></dd></div>
+                        <div><dt>Certification</dt><dd><?= e($formation['certification']) ?></dd></div>
+                    </dl>
+                    <a class="card-link" href="/formations/<?= e($formation['slug']) ?>">Voir le programme</a>
+                </div>
             </article>
         <?php endforeach; ?>
     </div>

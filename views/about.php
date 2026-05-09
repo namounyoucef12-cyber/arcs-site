@@ -7,14 +7,14 @@
 <section class="detail-layout visual-split">
     <article class="detail-content">
         <h2>Mission</h2>
-        <p>Rendre les parcours linguistiques plus accessibles, plus lisibles et mieux relies aux objectifs professionnels ou administratifs des apprenants.</p>
+        <p>Rendre les parcours linguistiques plus accessibles, plus lisibles et mieux relies aux objectifs professionnels, academiques ou administratifs des apprenants.</p>
         <h2>Pedagogie</h2>
         <p>Chaque parcours commence par une analyse du besoin, un positionnement et une proposition de progression. Les formations alternent apports, pratique, mises en situation et preparation a la certification.</p>
         <h2>Qualite</h2>
         <p>La mention Qualiopi doit etre verifiee avec le certificat officiel avant mise en production definitive. Un emplacement documentaire est prevu pour la preuve officielle.</p>
     </article>
     <aside class="info-panel">
-        <img class="panel-image" src="/assets/img/formation-linguistique.jpg" alt="Seance pedagogique ARCS">
+        <img class="panel-image" src="/assets/img/about-arcs.jpg" alt="Seance pedagogique ARCS">
         <h2>Reperes</h2>
         <dl class="meta-list vertical">
             <div><dt>Adresse</dt><dd><?= e(site_data('contact')['address']) ?></dd></div>

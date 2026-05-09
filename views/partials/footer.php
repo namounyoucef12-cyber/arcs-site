@@ -17,6 +17,7 @@
         </section>
         <section>
             <h2>Acces rapide</h2>
+            <a href="/">Accueil</a>
             <a href="/formations">Formations</a>
             <a href="/examens">Reservation examen</a>
             <a href="/financements">Financements</a>

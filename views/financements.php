@@ -1,7 +1,7 @@
 <section class="page-hero">
     <p class="eyebrow">Financer votre parcours</p>
     <h1>CPF, OPCO, entreprise et particulier</h1>
-    <p>ARCS vous aide a identifier le bon cadre de financement et a constituer une demande claire.</p>
+    <p>ARCS vous aide a identifier le bon cadre de financement et a constituer une demande lisible avant inscription.</p>
 </section>
 
 <section class="section">
@@ -15,12 +15,12 @@
 
 <section class="split-section visual-split">
     <figure class="section-media">
-        <img src="/assets/img/accompagnement-financement.jpg" alt="Conseiller accompagnant une demande de financement">
+        <img src="/assets/img/team-arcs.jpg" alt="Accompagnement dans une demande de financement">
     </figure>
     <div>
         <p class="eyebrow">Accompagnement administratif</p>
         <h2>Un dossier plus lisible pour gagner du temps</h2>
-        <p>La page doit rassurer sur la capacite d ARCS a cadrer le besoin, fournir les elements de programme et orienter vers le financement adapte au profil.</p>
+        <p>Nous cadrons le besoin, preparons les informations de programme et orientons vers le financement adapte au profil : CPF, OPCO, entreprise ou financement personnel.</p>
     </div>
 </section>
 

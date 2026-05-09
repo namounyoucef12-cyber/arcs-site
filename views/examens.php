@@ -16,7 +16,7 @@
         </ul>
     </div>
     <aside class="info-panel image-panel">
-        <img src="/assets/img/certificat-qualiopi.jpg" alt="Certificat Qualiopi ARCS">
+        <img src="/assets/img/community-arcs.png" alt="Candidats en parcours de certification">
         <div>
             <h2>Sessions</h2>
             <?php foreach (site_data('exam_sessions') as $session): ?>

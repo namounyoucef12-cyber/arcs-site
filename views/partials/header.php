@@ -1,11 +1,11 @@
 <?php
 $contact = site_data('contact');
 $nav = [
+    '/' => 'Accueil',
     '/formations' => 'Formations',
     '/examens' => 'Examens',
     '/financements' => 'Financements',
     '/entreprises' => 'Entreprises',
-    '/a-propos' => 'A propos',
     '/contact' => 'Contact',
 ];
 ?>
@@ -13,8 +13,8 @@ $nav = [
     <a class="skip-link" href="#contenu">Aller au contenu</a>
     <div class="header-top" aria-label="Informations rapides">
         <div class="header-top-inner">
-            <span>Centre de formation linguistique et certifications</span>
-            <span><?= e($contact['address'] ?? 'Paris') ?></span>
+            <span>Academie de Renforcement des Competences et du Savoir</span>
+            <span><?= e($contact['phone'] ?? '') ?> · <?= e($contact['email'] ?? '') ?></span>
         </div>
     </div>
     <div class="header-inner">
@@ -37,7 +37,7 @@ $nav = [
         </nav>
         <div class="header-actions">
             <a class="btn btn-ghost" href="/contact">Devis</a>
-            <a class="btn btn-primary" href="/examens">Reserver</a>
+            <a class="btn btn-primary" href="/examens">TEF</a>
         </div>
     </div>
 </header>

@@ -3,10 +3,10 @@ declare(strict_types=1);
 
 return [
     'contact' => [
-        'address' => '26-28 rue de Londres, 75009 Paris',
-        'phone' => 'A completer',
-        'email' => 'A completer',
-        'hours' => 'Sur rendez-vous',
+        'address' => '28 rue de Londres, 75009 Paris',
+        'phone' => '+33 7 59 64 52 02 / 01 80 88 17 76',
+        'email' => 'contact@arcs-france.fr',
+        'hours' => 'Lundi au vendredi 9h00 - 18h00, samedi 10h00 - 18h00',
     ],
     'formations' => [
         [
@@ -35,7 +35,7 @@ return [
             'program' => [
                 'Diagnostic initial et definition des objectifs.',
                 'Expression orale en situation professionnelle.',
-                'Compréhension ecrite et orale.',
+                'Comprehension ecrite et orale.',
                 'Production ecrite professionnelle.',
                 'Mises en situation et simulations.',
                 'Preparation a la certification.',

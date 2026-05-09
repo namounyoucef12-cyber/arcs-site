@@ -1,14 +1,14 @@
 <?php
 $formationVisuals = [
-    'Francais' => 'formation-linguistique.jpg',
-    'Anglais' => 'formation-entreprise.jpg',
-    'Examens' => 'certificat-qualiopi.jpg',
+    'Francais' => 'about-arcs.jpg',
+    'Anglais' => 'library-arcs.jpg',
+    'Examens' => 'community-arcs.png',
 ];
 ?>
 <section class="page-hero">
     <p class="eyebrow">Catalogue</p>
     <h1>Formations linguistiques</h1>
-    <p>Des parcours clairs pour progresser, certifier un niveau et structurer un projet professionnel.</p>
+    <p>Des parcours en francais, langues et preparation aux examens, construits selon le niveau, l objectif et le mode de financement.</p>
 </section>
 
 <section class="section">
@@ -20,7 +20,7 @@ $formationVisuals = [
     </div>
     <div class="cards three filter-list">
         <?php foreach (site_data('formations') as $formation): ?>
-            <?php $visual = $formationVisuals[$formation['category']] ?? 'formation-linguistique.jpg'; ?>
+            <?php $visual = $formationVisuals[$formation['category']] ?? 'about-arcs.jpg'; ?>
             <article class="card training-card formation-card" data-category="<?= e($formation['category']) ?>">
                 <img class="card-media" src="/assets/img/<?= e($visual) ?>" alt="">
                 <div class="card-body">

@@ -23,9 +23,11 @@ $canonical = rtrim((string) config_value('site_url'), '/') . (parse_url($_SERVER
       "name": "ARCS",
       "alternateName": "Academie de Renforcement des Competences et du Savoir",
       "url": "<?= e(rtrim((string) config_value('site_url'), '/')) ?>",
+      "telephone": "<?= e(site_data('contact')['phone'] ?? '') ?>",
+      "email": "<?= e(site_data('contact')['email'] ?? '') ?>",
       "address": {
         "@type": "PostalAddress",
-        "streetAddress": "26-28 rue de Londres",
+        "streetAddress": "28 rue de Londres",
         "postalCode": "75009",
         "addressLocality": "Paris",
         "addressCountry": "FR"

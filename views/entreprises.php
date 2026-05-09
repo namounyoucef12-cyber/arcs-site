@@ -1,7 +1,7 @@
 <section class="page-hero">
     <p class="eyebrow">Entreprises</p>
     <h1>Formations linguistiques sur mesure</h1>
-    <p>Audit, parcours personnalise, animation, reporting et certification pour accompagner vos equipes.</p>
+    <p>Audit, parcours personnalise, animation, suivi et certification pour accompagner vos equipes en presentiel, distanciel ou hybride.</p>
 </section>
 
 <section class="section">
@@ -23,7 +23,7 @@
         </ul>
     </div>
     <figure class="section-media">
-        <img src="/assets/img/formation-entreprise.jpg" alt="Reunion d equipe en formation professionnelle">
+        <img src="/assets/img/library-arcs.jpg" alt="Salle de formation et ressources pedagogiques">
     </figure>
 </section>
 

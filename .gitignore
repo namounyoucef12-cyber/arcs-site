@@ -1,0 +1,7 @@
+storage/*.json
+storage/*.jsonl
+storage/*.log
+storage/*.lock
+config.local.php
+.DS_Store
+Thumbs.db
